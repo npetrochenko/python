@@ -85,7 +85,7 @@ Dish ingredients inside a `list` may or may not have duplicates.
 
 In preparation for ordering and shopping, you'll need to compile a "master list" of ingredients for everything on the menu (_quantities to be filled in later_).
 
-Implement the `compile_ingredients(<dishes>)` function that takes a `list` of dishes and returns a set of all ingredients in all listed dishes.
+Implement the `compile_ingredients(<dishes>)` function that takes a `list` of dish ingredient sets and returns a set of all ingredients in all listed dishes.
 Each individual dish is represented by its `set` of ingredients.
 
 ```python
